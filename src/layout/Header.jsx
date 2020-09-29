@@ -52,63 +52,63 @@ function Header() {
             removeTransition();
           }}
         >
-          <h1 className="logo">Portfolio</h1>
+          <h1 className="logo">home</h1>
         </Link>
-      </div>
-      <div className="nav-icon-parent">
-        <div className={`nav-icon ${showMenu}`} onClick={menuClick}>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className="nav-icon-parent">
+          <div className={`nav-icon ${showMenu}`} onClick={menuClick}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-      </div>
 
-      <nav className={`${showMenu} ${transition}`}>
-        <Link
-          to="about"
-          className="nav-link"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={menuClick}
-        >
-          about
-        </Link>
-        <Link
-          to="skills"
-          className="nav-link"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={menuClick}
-        >
-          skills
-        </Link>
-        <Link
-          to="projects"
-          className="nav-link"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={menuClick}
-        >
-          projects
-        </Link>
-        <Link
-          to="contact"
-          className="nav-link"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          duration={500}
-          onClick={menuClick}
-        >
-          contact
-        </Link>
-      </nav>
+        <nav className={`${showMenu} ${transition}`}>
+          <Link
+            to="about"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            about
+          </Link>
+          <Link
+            to="skills"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            skills
+          </Link>
+          <Link
+            to="projects"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            projects
+          </Link>
+          <Link
+            to="contact"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            contact
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 }
