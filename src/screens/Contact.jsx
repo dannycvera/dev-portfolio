@@ -39,6 +39,18 @@ function Contact() {
               src={require("../img/mail.svg")}
             />
           </a>
+          <a
+            className="contact-link"
+            href={require("../img/danielveraresume.pdf")}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="contact-resume"
+              alt="resume icon"
+              src={require("../img/resume.png")}
+            />
+          </a>
         </div>
       </div>
     </div>
