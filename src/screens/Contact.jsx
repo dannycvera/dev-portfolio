@@ -17,7 +17,11 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="devicon-github-plain"></i>
+            <img
+              className="contact-icon"
+              src={require("../img/github-white.svg")}
+              alt="github"
+            />
           </a>
           <a
             className="contact-link"
@@ -25,7 +29,11 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="devicon-linkedin-plain"></i>
+            <img
+              className="contact-icon"
+              src={require("../img/linkedin-white.svg")}
+              alt="linked in"
+            />
           </a>
           <a
             className="contact-link"
