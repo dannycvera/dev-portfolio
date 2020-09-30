@@ -12,7 +12,7 @@ function Master() {
       }}
     >
       <div className={`master-loading ${visible}`}>
-        <img src={require("../img/loading.svg")} />
+        <img src={require("../img/loading.svg")} alt="loading" />
       </div>
       <div className="master-title-container">
         <h1>Daniel Vera</h1>
