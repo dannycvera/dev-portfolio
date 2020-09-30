@@ -2,5 +2,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 75px;
+}
+.skills-title {
+  margin: 10px 20px 30px;
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+.skills-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.skills-icons > i {
+  font-size: 60px;
+  margin: 20px;
+}
+@media screen and (max-width: 500px) {
+  .skills-icons {
+    width: 350px;
+  }
 }
