@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+  background-image: url("../img/nyc03.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.contact-wrapper {
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 85px;
+}
+.contact-title {
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+.contact-text {
+  font-size: 18px;
+  text-align: center;
+}
+.contact-title,
+.contact-text {
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 1));
+}
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 250px;
+  font-size: 50px;
+  margin-top: 40px;
+}
+.contact-link {
+  color: white;
+  text-decoration: none;
+}
+.contact-mail {
+  width: 50px;
+}

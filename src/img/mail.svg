@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400">
+	<rect width="400" height="400" fill="#000"/>
+	<path d="M16,182L291,30L380,204L90,361zM42,189L202,207L279,57L347,196L102,329zM87,171L231,87L186,179z" fill="#fff" fill-rule="evenodd"/>
+</svg>
