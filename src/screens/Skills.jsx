@@ -1,5 +1,7 @@
 import React from "react";
 import "./Skills.css";
+import "devicon/devicon-colors.css";
+import "devicon/devicon.css";
 
 function Skills() {
   return (
