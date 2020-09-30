@@ -94,7 +94,7 @@ function Projects() {
         modalVis={modalVis1}
         setModalVis={setModalVis1}
         imgURL={require("../img/proj01web.jpg")}
-        title="Apartment Fix - apartment issue tracking web app"
+        title="Apartment Fix"
         text="Apartment Fix is a web app to document apartment issues, such as leaking plumbing, broken sheetrock, etc. Built from scratch using a Ruby on Rails backed with a React front end."
         tech="Ruby on Rails, PostgreSQL, React, Javascript, CSS, HTML5, Axios, Github"
         link="https://apartment-fix.netlify.app/"
@@ -104,7 +104,7 @@ function Projects() {
         modalVis={modalVis2}
         setModalVis={setModalVis2}
         imgURL={require("../img/proj02web.jpg")}
-        title="Black Girls Code - website redesign"
+        title="Black Girls Code"
         text="A collaborative redesign of a non-profits existing website. Our UX team utilized Zeplin to communicate their designs. While our team of four developers implemented their plans to the smallest detail. We utilized MongoDB and nodeJS for the backend, with a React front end."
         tech="MongoDB, Node.JS, Express, React, Javascript, CSS, HTML5, Axios, Github"
         link="https://blackgirlscodep3.netlify.app/"
@@ -114,7 +114,7 @@ function Projects() {
         modalVis={modalVis3}
         setModalVis={setModalVis3}
         imgURL={require("../img/proj03web.jpg")}
-        title="Photo Co-Lab - photo color editing web app"
+        title="Photo Co-Lab"
         text="Photo Co-Lab is a web application for collaboratively editing a photo's color from your mobile or desktop computer. Use the sliders to change the hue, saturation, contrast and other settings, then post the changes. Your teammate can visit the same URL and see your changes by clicking on your post. They can in turn make new changes and comments. Build using React with Airtable as the backend."
         tech="React, Airtable, Javascript, CSS, HTML5, Axios, Github"
         link="https://photocolab.netlify.app/"
