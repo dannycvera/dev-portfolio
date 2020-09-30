@@ -5,7 +5,7 @@
   flex-direction: column;
 
   min-height: 100vh;
-  background-image: url("../img/nyc03.jpg");
+  background-image: url("../img/nyc02web.jpg");
   background-position: center;
   background-size: cover;
   color: white;
@@ -35,15 +35,20 @@
 .contact-links {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  width: 250px;
+  width: 350px;
   font-size: 50px;
   margin-top: 40px;
 }
 .contact-link {
   color: white;
   text-decoration: none;
+  margin: 5px 10px;
 }
 .contact-mail {
   width: 50px;
+}
+.contact-resume {
+  width: 60px;
 }
