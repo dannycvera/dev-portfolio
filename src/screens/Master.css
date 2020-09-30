@@ -6,9 +6,9 @@
   height: 100vh;
   color: white;
 
-  background-image: url("../img/nyc01web.jpg");
+  /* background-image: url("../img/nyc01web.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   /* background: linear-gradient(#47c2ff, #6c4cf5); */
 }
 
@@ -56,7 +56,20 @@
   transition: opacity 0.5s linear, visibility 0.5s linear;
 }
 
-.master-loading.visible {
+.master-loading.hide {
   opacity: 0;
   visibility: hidden;
+}
+
+.master-bg-img {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
