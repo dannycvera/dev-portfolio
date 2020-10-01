@@ -49,7 +49,7 @@ function Contact() {
           </a>
           <a
             className="contact-link"
-            href={require("../img/danielveraresume.pdf")}
+            href="./danielveraresume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

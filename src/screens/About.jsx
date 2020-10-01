@@ -17,7 +17,7 @@ function About() {
             to any problem in my way. I deliver engineering implementations that
             are simple to utilize, yet thoroughly thought out and tested. My
             experience gives me a unique perspective on the need to provide
-            ready to use, turn-key solutions to whom ever I work with. Solutions
+            ready to use, turn-key solutions to whomever I work with. Solutions
             that are image enhancing, and exciting to the end user.
           </p>
         </div>
