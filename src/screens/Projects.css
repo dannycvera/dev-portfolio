@@ -64,7 +64,14 @@
   left: 0;
   right: 0;
   position: absolute;
-  background-color: #00a6ff;
+  /* background: linear-gradient(to bottom left, #00a6ff, #0085cc); */
+  background: linear-gradient(
+    to bottom left,
+    rgba(0, 166, 255, 0.7),
+    rgba(0, 133, 204, 0.7)
+  );
+  /* background: linear-gradient(to bottom left, #48b1ea, #0a68fc); */
+  /* background-color: #00a6ff; */
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -75,7 +82,7 @@
 }
 
 .proj-overlay:hover {
-  background-color: rgba(0, 166, 255, 0.7);
+  /* background-color: rgba(0, 166, 255, 0.7); */
   opacity: 1;
 }
 

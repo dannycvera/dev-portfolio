@@ -52,7 +52,7 @@
   margin: 10px;
   font-size: 20px;
   white-space: nowrap;
-  background-color: #0296e6;
+  background: linear-gradient(to bottom left, #00a6ff, #0085cc);
   color: white;
   border-radius: 15px;
   border: none;
