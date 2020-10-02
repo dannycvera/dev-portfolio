@@ -32,6 +32,6 @@
 }
 @media screen and (max-width: 500px) {
   .skills-wrapper {
-    margin: 5%;
+    margin: 75px 5% 10px;
   }
 }
