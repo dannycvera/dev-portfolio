@@ -41,7 +41,7 @@
   width: 300px;
   margin-left: 80px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .about-title {
     width: 50%;
     margin-bottom: 20px;
@@ -51,10 +51,19 @@
     flex-direction: column;
   }
   .about-img {
-    width: 200px;
+    width: 45%;
   }
   .about-text {
     width: 90%;
     margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-img {
+    width: 200px;
+  }
+  .about-container {
+    flex-direction: column;
   }
 }
