@@ -9,10 +9,9 @@
   filter: drop-shadow(0 0 5px gray);
   border-radius: 20px;
   padding: 10px 30px;
+  margin: auto;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  z-index: 3;
   width: 60%;
-  /* max-width: 600px; */
 }
 
 .modal-parent {
@@ -21,17 +20,23 @@
   align-items: center;
   visibility: collapse;
   position: fixed;
-  z-index: 9999;
+  z-index: 1;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  overflow-y: auto;
 }
-
+.modal > h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
 .modal > img {
-  width: 50%;
+  width: 60%;
   object-fit: contain;
   object-fit: cover;
   margin: 10px;
@@ -60,6 +65,7 @@
   border: none;
   outline: none;
   transition: transform 0.1s ease-in-out;
+  cursor: pointer;
 }
 
 .modal-button:active {
@@ -68,12 +74,16 @@
 
 .modal-close {
   align-self: flex-end;
+  display: flex;
+  align-items: center;
   font-size: 50px;
+  height: 50px;
   color: #0296e6;
   background-color: transparent;
   border: none;
   outline: none;
   transition: transform 0.1s ease-in-out;
+  cursor: pointer;
 }
 .modal-close:active {
   transform: scale(0.9);
@@ -82,9 +92,15 @@
   visibility: visible;
   opacity: 1;
 }
+
 .modal.visible {
   visibility: visible;
   opacity: 1;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 500px) {

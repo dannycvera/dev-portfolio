@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Modal.css";
 
 function Modal(props) {
@@ -12,6 +12,21 @@ function Modal(props) {
     link,
     github,
   } = props;
+  const scrollY = useRef(0);
+  useEffect(() => {
+    const body = document.body;
+    if (modalVis === "visible") {
+      scrollY.current = window.scrollY;
+      const scrollLoc = `-${window.scrollY}px`;
+      body.style.position = "fixed";
+      body.style.top = scrollLoc;
+    } else {
+      body.style.position = "";
+      body.style.top = "";
+      window.scrollTo(0, scrollY.current);
+    }
+  }, [modalVis]);
+
   return (
     <div>
       <div className={`modal-parent ${modalVis}`}>
