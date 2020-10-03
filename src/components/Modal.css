@@ -50,7 +50,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   width: 350px;
-  /* border: thin solid black; */
 }
 
 .modal-button {
@@ -70,6 +69,7 @@
   cursor: pointer;
   opacity: 1;
 }
+
 .modal-button::before {
   border-radius: inherit;
   background-image: linear-gradient(to bottom left, #73cbfa, #0083c9);
@@ -84,12 +84,13 @@
   z-index: -1;
   transition: opacity 0.1s ease-in-out;
 }
-.modal-button:active {
-  transform: scale(0.95);
-}
 
 .modal-button:active:before {
   opacity: 1;
+}
+
+.modal-button:active {
+  transform: scale(0.95);
 }
 
 .modal-close {
