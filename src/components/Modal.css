@@ -59,7 +59,7 @@
   margin: 10px;
   font-size: 20px;
   white-space: nowrap;
-  background: linear-gradient(to bottom left, #00a6ff, #0085cc);
+  background-image: linear-gradient(to bottom left, #00a6ff, #0085cc);
   color: white;
   border-radius: 15px;
   border: none;
@@ -68,10 +68,28 @@
   outline: none;
   transition: transform 0.1s ease-in-out;
   cursor: pointer;
+  opacity: 1;
 }
-
+.modal-button::before {
+  border-radius: inherit;
+  background-image: linear-gradient(to bottom left, #73cbfa, #0083c9);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.1s ease-in-out;
+}
 .modal-button:active {
   transform: scale(0.95);
+}
+
+.modal-button:active:before {
+  opacity: 1;
 }
 
 .modal-close {
