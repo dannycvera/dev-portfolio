@@ -8,7 +8,15 @@ function Contact() {
         <h1 className="contact-title">Contact Me</h1>
         <p className="contact-text">
           Thank you for viewing my qualifications. Let's work together in the
-          future! <br /> You can contact me with the links below.
+          future! <br /> You can contact me with the links below or thru my
+          email at{" "}
+          <a
+            href={`mailto:dannyvera@gmail.com?subject=Just looked at your portfolio&body=Hello`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dannyvera@gmail.com
+          </a>
         </p>
         <div className="contact-links">
           <a
