@@ -24,6 +24,11 @@ function Skills() {
           />
           <img
             className="skills-icon"
+            src={require("../img/python-plain-wordmark.svg")}
+            alt="python"
+          />
+          <img
+            className="skills-icon"
             src={require("../img/mongodb-plain-wordmark.svg")}
             alt="mongodb"
           />
@@ -76,6 +81,22 @@ function Skills() {
             className="skills-icon"
             src={require("../img/github-original-wordmark.svg")}
             alt="github"
+          />
+          <img
+            className="skills-icon"
+            src={require("../img/git-original-wordmark.svg")}
+            alt="git"
+          />
+          <img
+            className="skills-icon"
+            src={require("../img/docker-original-wordmark.svg")}
+            alt="docker"
+          />
+
+          <img
+            className="skills-icon"
+            src={require("../img/photoshop-line.svg")}
+            alt="photoshop"
           />
         </div>
       </div>
