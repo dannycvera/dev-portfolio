@@ -14,8 +14,8 @@ function About() {
           />
           <p className="about-text">
             I am a New Yorker who won’t stop until he finds an elegant solution
-            to any problem in my way. I deliver engineering implementations that
-            are simple to utilize, yet thoroughly thought out and tested. My
+            to any problem. I deliver engineering implementations that are
+            simple to utilize, yet thoroughly thought out and tested. My
             experience gives me a unique perspective on the need to provide
             ready to use, turn-key solutions to whomever I work with. Solutions
             that are image enhancing, and exciting to the end user.
