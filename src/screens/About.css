@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 800px;
+  width: 760px;
 }
 .about-img {
   width: 300px;
@@ -40,7 +40,7 @@
   font-size: 18px;
   font-weight: 400;
   max-width: 100%;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 @media screen and (max-width: 800px) {
   .about-title {
