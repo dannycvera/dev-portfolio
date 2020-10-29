@@ -12,14 +12,26 @@ function About() {
             alt="Danny Vera"
             src={require("../img/self-portrait.jpg")}
           />
-          <p className="about-text">
-            I am a New Yorker who won’t stop until he finds an elegant solution
-            to any problem. I deliver engineering implementations that are
-            simple to utilize, yet thoroughly thought out and tested. My
-            experience gives me a unique perspective on the need to provide
-            ready to use, turn-key solutions to whomever I work with. Solutions
-            that are image enhancing, and exciting to the end user.
-          </p>
+          <div>
+            <p className="about-text">
+              I am a New Yorker who won’t stop until he finds an elegant
+              solution to any problem. Implementing solutions that are simple to
+              utilize, yet thoroughly reviewed and tested. My previous
+              experience in the photography industry gives me a unique
+              perspective on the need to provide ready to use, turn-key
+              solutions to whomever I work with. Solutions that are image
+              enhancing, and exciting to the end user.{" "}
+            </p>
+            <p className="about-text">
+              My other activities include being the treasurer of my co-op
+              building. In this role I built a roof deck on our brownstone
+              building for all the residents to enjoy. I found the funding for
+              the project by renting out empty commercial spaces for top dollar.
+            </p>
+            <p className="about-text">
+              In my free time I enjoy biking and ultimate frisbee.
+            </p>
+          </div>
         </div>
       </div>
     </div>
