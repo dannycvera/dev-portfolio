@@ -23,8 +23,8 @@ function About() {
               enhancing, and exciting to the end user.{" "}
             </p>
             <p className="about-text">
-              My other activities include being the treasurer of my co-op
-              building. In this role I built a roof deck on our brownstone
+              My other activities include being the treasurer of my low income
+              co-op building. In this role I built a roof deck on our brownstone
               building for all the residents to enjoy. I found the funding for
               the project by renting out empty commercial spaces for top dollar.
             </p>
