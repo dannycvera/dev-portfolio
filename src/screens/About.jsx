@@ -10,7 +10,7 @@ function About() {
           <img
             className="about-img"
             alt="Danny Vera"
-            src={require("../img/self-portrait.jpg")}
+            src={require("../img/self-portrait.jpg").default}
           />
           <div>
             <p className="about-text">
