@@ -27,7 +27,7 @@ function Contact() {
           >
             <img
               className="contact-icon"
-              src={require("../img/github-white.svg")}
+              src={require("../img/github-white.svg").default}
               alt="github"
             />
           </a>
@@ -39,7 +39,7 @@ function Contact() {
           >
             <img
               className="contact-icon"
-              src={require("../img/linkedin-white.svg")}
+              src={require("../img/linkedin-white.svg").default}
               alt="linked in"
             />
           </a>
@@ -52,7 +52,7 @@ function Contact() {
             <img
               className="contact-mail"
               alt="mail icon"
-              src={require("../img/mail.svg")}
+              src={require("../img/mail.svg").default}
             />
           </a>
           <a
@@ -64,7 +64,7 @@ function Contact() {
             <img
               className="contact-resume"
               alt="resume icon"
-              src={require("../img/resume.png")}
+              src={require("../img/resume.png").default}
             />
           </a>
         </div>
