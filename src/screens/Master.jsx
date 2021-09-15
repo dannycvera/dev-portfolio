@@ -6,11 +6,11 @@ function Master() {
   return (
     <div className="master" id="master">
       <div className={`master-loading ${visible}`}>
-        <img src={require("../img/loading.svg")} alt="loading" />
+        <img src={require("../img/loading.svg").default} alt="loading" />
       </div>
       <img
         className="master-bg-img"
-        src={require("../img/nyc01web.jpg")}
+        src={require("../img/nyc01web.jpg").default}
         alt="ny at night background"
         onLoad={() => {
           setVisible("hide");

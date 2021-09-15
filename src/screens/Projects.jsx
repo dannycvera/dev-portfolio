@@ -22,7 +22,7 @@ function Projects() {
           >
             <img
               className="proj-img"
-              src={require("../img/proj01web.jpg")}
+              src={require("../img/proj01web.jpg").default}
               alt="Apartment Fix"
             />
             <div className="proj-overlay">
@@ -40,7 +40,7 @@ function Projects() {
           >
             <img
               className="proj-img"
-              src={require("../img/proj02web.jpg")}
+              src={require("../img/proj02web.jpg").default}
               alt="Black Girls Code"
             />
             <div className="proj-overlay">
@@ -60,7 +60,7 @@ function Projects() {
           >
             <img
               className="proj-img"
-              src={require("../img/proj03web.jpg")}
+              src={require("../img/proj03web.jpg").default}
               alt="PhotoCo-Lab"
             />
             <div className="proj-overlay">
@@ -80,7 +80,7 @@ function Projects() {
           >
             <img
               className="proj-img"
-              src={require("../img/proj04web.jpg")}
+              src={require("../img/proj04web.jpg").default}
               alt="Game of Thrones Quotes Game"
             />
             <div className="proj-overlay">
@@ -93,7 +93,7 @@ function Projects() {
       <Modal
         modalVis={modalVis1}
         setModalVis={setModalVis1}
-        imgURL={require("../img/proj01web.jpg")}
+        imgURL={require("../img/proj01web.jpg").default}
         title="Apartment Fix"
         text="Apartment Fix is a web app to document apartment issues, such as leaking plumbing, broken sheetrock, etc. Built from scratch using a Ruby on Rails backed with a React front end."
         tech="Ruby on Rails, PostgreSQL, React, Javascript, CSS, HTML5, Axios, Github"
@@ -103,7 +103,7 @@ function Projects() {
       <Modal
         modalVis={modalVis2}
         setModalVis={setModalVis2}
-        imgURL={require("../img/proj02web.jpg")}
+        imgURL={require("../img/proj02web.jpg").default}
         title="Black Girls Code"
         text="A collaborative redesign of a non-profits existing website. Our UX team utilized Zeplin to communicate their designs. While our team of four developers implemented their plans to the smallest detail. We utilized MongoDB and nodeJS for the backend, with a React front end."
         tech="MongoDB, Node.JS, Express, React, Javascript, CSS, HTML5, Axios, Github"
@@ -113,17 +113,17 @@ function Projects() {
       <Modal
         modalVis={modalVis3}
         setModalVis={setModalVis3}
-        imgURL={require("../img/proj03web.jpg")}
+        imgURL={require("../img/proj03web.jpg").default}
         title="Photo Co-Lab"
         text="Photo Co-Lab is a web application for collaboratively editing a photo's color from your mobile or desktop computer. Use the sliders to change the hue, saturation, contrast and other settings, then post the changes. Your teammate can visit the same URL and see your changes by clicking on your post. They can in turn make new changes and comments. Build using React with Airtable as the backend."
         tech="React, Airtable, Javascript, CSS, HTML5, Axios, Github"
-        link="https://photocolab.netlify.app/"
+        link="https://photocolab.netlify.app/image/reckFidn8ldyIKrhD"
         github="https://github.com/dannycvera/PhotoCollaboration-SEI-Project2"
       />
       <Modal
         modalVis={modalVis4}
         setModalVis={setModalVis4}
-        imgURL={require("../img/proj04web.jpg")}
+        imgURL={require("../img/proj04web.jpg").default}
         title="Game of Thrones Quotes Game"
         text="Game of Thrones - Quotes is a game where the user clicks on the
         image of the character they believe authored the displayed quote. If
