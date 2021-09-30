@@ -33,7 +33,7 @@ function Contact() {
           </a>
           <a
             className="contact-link"
-            href="https://www.linkedin.com/in/daniel-vera-65bbb07/"
+            href="https://www.linkedin.com/in/dannycvera/"
             target="_blank"
             rel="noopener noreferrer"
           >
