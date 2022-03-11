@@ -97,7 +97,7 @@ function Projects() {
         title="Apartment Fix"
         text="Apartment Fix is a web app to document apartment issues, such as leaking plumbing, broken sheetrock, etc. Built from scratch using a Ruby on Rails backed with a React front end."
         tech="Ruby on Rails, PostgreSQL, React, Javascript, CSS, HTML5, Axios, Github"
-        link="https://apartment-fix.netlify.app/"
+        link="https://apartment-fix.netlify.app/issue/2"
         github="https://github.com/dannycvera/apartment-fix-p4"
       />
       <Modal
