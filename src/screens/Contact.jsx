@@ -1,5 +1,9 @@
 import React from "react";
 import "./Contact.css";
+import github from "../img/github-white.svg";
+import linkedin from "../img/linkedin-white.svg";
+import mail from "../img/mail.svg";
+import resume from "../img/resume.png";
 
 function Contact() {
   return (
@@ -27,7 +31,7 @@ function Contact() {
           >
             <img
               className="contact-icon"
-              src={require("../img/github-white.svg").default}
+              src={github}
               alt="github"
             />
           </a>
@@ -39,7 +43,7 @@ function Contact() {
           >
             <img
               className="contact-icon"
-              src={require("../img/linkedin-white.svg").default}
+              src={linkedin}
               alt="linked in"
             />
           </a>
@@ -52,7 +56,7 @@ function Contact() {
             <img
               className="contact-mail"
               alt="mail icon"
-              src={require("../img/mail.svg").default}
+              src={mail}
             />
           </a>
           <a
@@ -64,7 +68,7 @@ function Contact() {
             <img
               className="contact-resume"
               alt="resume icon"
-              src={require("../img/resume.png").default}
+              src={resume}
             />
           </a>
         </div>

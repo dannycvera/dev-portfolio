@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import portrait from "../img/self-portrait.jpg";
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
           <img
             className="about-img"
             alt="Danny Vera"
-            src={require("../img/self-portrait.jpg").default}
+            src={portrait}
           />
           <div>
             <p className="about-text">
