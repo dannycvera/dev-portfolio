@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import "./Master.css";
+import background from "../img/nyc01web.jpg";
+import loader from "../img/loading.svg";
 
 function Master() {
   const [visible, setVisible] = useState("");
   return (
     <div className="master" id="master">
       <div className={`master-loading ${visible}`}>
-        <img src={require("../img/loading.svg").default} alt="loading" />
+        <img src={loader} alt="loading" />
       </div>
       <img
         className="master-bg-img"
-        src={require("../img/nyc01web.jpg").default}
+        src={background}
         alt="ny at night background"
         onLoad={() => {
           setVisible("hide");
