@@ -141,7 +141,7 @@ function Projects() {
         setModalVis={setModalVis3}
         imgURL={proj03}
         title="Apartment Fix"
-        text={`Apartment Fix is a web app to document apartment issues, such as leaking plumbing, broken sheetrock, etc. Built from scratch using a Ruby on Rails backed with a React front end.\n\nYou may use the login username: "test" and password:"123456" for testing`}
+        text={`Apartment Fix is a web app to document apartment issues, such as leaking plumbing, broken sheetrock, etc. Built from scratch using a Ruby on Rails backed with a React front end.\n\nYou may use the username: "test" and password:"123456" for testing`}
         tech="Ruby on Rails, PostgreSQL, React, Javascript, CSS, HTML5, Axios, Github"
         link="https://apartment-fix.netlify.app/issue/1"
         github="https://github.com/dannycvera/apartment-fix-p4"
