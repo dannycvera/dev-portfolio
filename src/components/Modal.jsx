@@ -47,8 +47,8 @@ function Modal(props) {
           </button>
           <h2>{title}</h2>
           <img src={imgURL} alt={title} />
-          <p>{text}</p>
-          <p>{`Technologies used: ${tech}`}</p>
+          <p className="modal-text">{text}</p>
+          <p className="modal-text">{`Technologies used: ${tech}`}</p>
           <div className="modal-buttons">
             <a href={link} target="_blank" rel="noopener noreferrer">
               <button className="modal-button">Deployed Site</button>
