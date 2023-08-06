@@ -29,11 +29,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="contact-icon"
-              src={github}
-              alt="github"
-            />
+            <img className="contact-icon" src={github} alt="github" />
           </a>
           <a
             className="contact-link"
@@ -41,11 +37,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="contact-icon"
-              src={linkedin}
-              alt="linked in"
-            />
+            <img className="contact-icon" src={linkedin} alt="linked in" />
           </a>
           <a
             className="contact-link"
@@ -53,11 +45,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="contact-mail"
-              alt="mail icon"
-              src={mail}
-            />
+            <img className="contact-mail" alt="mail icon" src={mail} />
           </a>
           <a
             className="contact-link"
@@ -65,11 +53,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="contact-resume"
-              alt="resume icon"
-              src={resume}
-            />
+            <img className="contact-resume" alt="resume icon" src={resume} />
           </a>
         </div>
       </div>
