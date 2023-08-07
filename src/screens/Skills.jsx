@@ -8,7 +8,7 @@ import expressIcon from "../img/express-original-wordmark.svg";
 import reactIcon from "../img/react-original-wordmark.svg";
 import nodeJSIcon from "../img/nodejs-plain-wordmark.svg";
 import rubyIcon from "../img/ruby-plain-wordmark.svg";
-import railsIcon from "../img/postgresql-plain-wordmark.svg";
+import railsIcon from "../img/rails-plain-wordmark.svg";
 import postgresqlIcon from "../img/postgresql-plain-wordmark.svg";
 import pythonIcon from "../img/python-plain-wordmark.svg";
 import herokuIcon from "../img/heroku-plain-wordmark.svg";

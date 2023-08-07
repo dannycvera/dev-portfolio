@@ -17,6 +17,7 @@
   text-align: center;
   width: 50%;
   border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 .skills-icons {
   display: flex;
