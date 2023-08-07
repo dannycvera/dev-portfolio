@@ -25,11 +25,7 @@ function Projects() {
               setModalVis1("visible");
             }}
           >
-            <img
-              className="proj-img"
-              src={proj01}
-              alt="Apartment Fix"
-            />
+            <img className="proj-img" src={proj01} alt="Apartment Fix" />
             <div className="proj-overlay">
               <h3>
                 Apartment Fix <br /> apartment issue tracking web app
@@ -43,11 +39,7 @@ function Projects() {
               setModalVis2("visible");
             }}
           >
-            <img
-              className="proj-img"
-              src={proj02}
-              alt="Black Girls Code"
-            />
+            <img className="proj-img" src={proj02} alt="Black Girls Code" />
             <div className="proj-overlay">
               <h3>
                 Black Girls Code <br />
@@ -63,11 +55,7 @@ function Projects() {
               setModalVis3("visible");
             }}
           >
-            <img
-              className="proj-img"
-              src={proj03}
-              alt="PhotoCo-Lab"
-            />
+            <img className="proj-img" src={proj03} alt="PhotoCo-Lab" />
             <div className="proj-overlay">
               <h3>
                 Photo Co-Lab
@@ -99,11 +87,7 @@ function Projects() {
               setModalVis5("visible");
             }}
           >
-            <img
-              className="proj-img"
-              src={proj05}
-              alt="Bayaz Band Site"
-            />
+            <img className="proj-img" src={proj05} alt="Bayaz Band Site" />
             <div className="proj-overlay">
               <h3>Bayaz Band Promotional Site</h3>
               <p>Click for more info</p>

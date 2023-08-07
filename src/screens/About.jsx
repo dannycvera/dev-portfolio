@@ -8,11 +8,7 @@ function About() {
       <div className="about-wrapper">
         <h1 className="about-title">About</h1>
         <div className="about-container">
-          <img
-            className="about-img"
-            alt="Danny Vera"
-            src={portrait}
-          />
+          <img className="about-img" alt="Danny Vera" src={portrait} />
           <div>
             <p className="about-text">
               I am a New Yorker who won’t stop until he finds an elegant

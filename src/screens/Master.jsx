@@ -18,7 +18,6 @@ function Master() {
           setVisible("hide");
         }}
       />
-
       <div className="master-title-container">
         <h1>Daniel Vera</h1>
         <h3>New York City Based Full-Stack Developer | Software Engineer</h3>
