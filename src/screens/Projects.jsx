@@ -98,11 +98,7 @@ function Projects() {
               setModalVis5("visible");
             }}
           >
-            <img
-              className="proj-img"
-              src={proj05}
-              alt="Bayaz Band Site"
-            />
+            <img className="proj-img" src={proj05} alt="Bayaz Band Site" />
             <div className="proj-overlay">
               <h3>Bayaz Band Promotional Site</h3>
               <p>Click for more info</p>

@@ -1,34 +1,16 @@
 import React, { useEffect } from "react";
-// import { useRef } from "react";
 import "./Modal.css";
 
 function Modal(props) {
-  const {
-    modalVis,
-    setModalVis,
-    title,
-    imgURL,
-    text,
-    tech,
-    link,
-    github,
-  } = props;
-
-  // const scrollY = useRef(0);
+  const { modalVis, setModalVis, title, imgURL, text, tech, link, github } =
+    props;
 
   useEffect(() => {
     const body = document.body;
     if (modalVis === "visible") {
       body.style.overflowY = "hidden";
-      // scrollY.current = window.scrollY;
-      // const scrollLoc = `-${window.scrollY}px`;
-      // body.style.position = "fixed";
-      // body.style.top = scrollLoc;
     } else {
       body.style.overflowY = "auto";
-      // body.style.position = "";
-      // body.style.top = "";
-      // window.scrollTo(0, scrollY.current);
     }
   }, [modalVis]);
 
