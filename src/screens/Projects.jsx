@@ -28,11 +28,12 @@ function Projects() {
             <img
               className="proj-img"
               src={proj01}
-              alt="Apartment Fix"
+              alt="Photo Co-Lab"
             />
             <div className="proj-overlay">
               <h3>
-                Apartment Fix <br /> apartment issue tracking web app
+                Photo Co-Lab
+                <br /> photo color editing web app
               </h3>
               <p>Click for more info</p>
             </div>
@@ -46,13 +47,10 @@ function Projects() {
             <img
               className="proj-img"
               src={proj02}
-              alt="Black Girls Code"
+              alt="Game of Thrones Quotes Game"
             />
             <div className="proj-overlay">
-              <h3>
-                Black Girls Code <br />
-                website redesign
-              </h3>
+            <h3>Game of Thrones Quotes Game</h3>
               <p>Click for more info</p>
             </div>
           </div>
@@ -66,14 +64,12 @@ function Projects() {
             <img
               className="proj-img"
               src={proj03}
-              alt="PhotoCo-Lab"
+              alt="Apartment Fix"
             />
             <div className="proj-overlay">
               <h3>
-                Photo Co-Lab
-                <br /> photo color editing web app
+                Apartment Fix <br /> apartment issue tracking web app
               </h3>
-
               <p>Click for more info</p>
             </div>
           </div>
@@ -86,10 +82,13 @@ function Projects() {
             <img
               className="proj-img"
               src={proj04}
-              alt="Game of Thrones Quotes Game"
+              alt="Black Girls Code"
             />
             <div className="proj-overlay">
-              <h3>Game of Thrones Quotes Game</h3>
+              <h3>
+                Black Girls Code <br />
+                website redesign
+              </h3>
               <p>Click for more info</p>
             </div>
           </div>
