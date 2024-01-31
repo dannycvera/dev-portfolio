@@ -28,7 +28,7 @@ function Projects() {
             <img
               className="proj-img"
               src={proj01}
-              alt="PhotoCo-Lab"
+              alt="PhotoCoLab"
             />
             <div className="proj-overlay">
               <h3>
