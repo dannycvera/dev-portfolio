@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import portrait from "../img/self-portrait.jpg";
+import portrait from "../img/DannyVeraPortrait.jpg";
 
 function About() {
   return (
@@ -11,22 +11,13 @@ function About() {
           <img className="about-img" alt="Danny Vera" src={portrait} />
           <div>
             <p className="about-text">
-              I am a New Yorker who won’t stop until he finds an elegant
-              solution to any problem. Implementing solutions that are simple to
-              utilize, yet thoroughly reviewed and tested. My previous
-              experience in the photography industry gives me a unique
-              perspective on the need to provide ready to use, turn-key
-              solutions to whomever I work with. Solutions that are image
-              enhancing, and exciting to the end user.{" "}
+              I am a dedicated New Yorker with a relentless drive to find elegant, scalable solutions to complex technical problems. I specialize in implementing codebases that are simple to navigate yet rigorously architected and tested. With a background in the professional photography industry, I bring a unique "pixel-perfect" perspective to the UI, ensuring that the final product is not only functionally turn-key but visually exciting for the end-user.{" "}
             </p>
             <p className="about-text">
-              My other activities include being the treasurer of my low income
-              co-op building. In this role I built a roof deck on our brownstone
-              building for all the residents to enjoy. I found the funding for
-              the project by renting out empty commercial spaces for top dollar.
+              Outside of engineering, I serve as the Treasurer of my HDFC co-op in Brooklyn. In this role, I’ve navigated the intersection of finance and urban development—successfully securing project funding by optimizing commercial lease revenue to build a community roof deck for our residents.
             </p>
             <p className="about-text">
-              In my free time I enjoy biking and ultimate frisbee.
+              When I’m not at the terminal or managing property, you can find me cycling through the five boroughs or playing ultimate frisbee in the park.
             </p>
           </div>
         </div>

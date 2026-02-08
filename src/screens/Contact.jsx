@@ -49,7 +49,7 @@ function Contact() {
           </a>
           <a
             className="contact-link"
-            href="./danielveraresume.pdf"
+            href="./dannycveraResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
