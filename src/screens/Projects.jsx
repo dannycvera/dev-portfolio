@@ -38,7 +38,7 @@ function Projects() {
               <p>Click for more info</p>
             </div>
           </div>
-          <div
+          {/* <div
             className="proj"
             onClick={() => {
               setModalVis2("visible");
@@ -53,9 +53,9 @@ function Projects() {
             <h3>Game of Thrones Quotes Game</h3>
               <p>Click for more info</p>
             </div>
-          </div>
+          </div> */}
 
-          <div
+          {/* <div
             className="proj"
             onClick={() => {
               setModalVis3("visible");
@@ -72,7 +72,8 @@ function Projects() {
               </h3>
               <p>Click for more info</p>
             </div>
-          </div>
+          </div> */}
+
           <div
             className="proj"
             onClick={() => {
